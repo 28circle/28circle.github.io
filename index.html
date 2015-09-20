@@ -22,8 +22,9 @@ layout: default
               <div class="dummy blogpost">
                 Post blog.
               </div>
-            </div><p></p><p></p>
+            </div>
               <ul class="post-list">{% for post in paginator.posts %}
+              <div class="post-box">
                 <div class="titlepost">
                   <span>{{ post.title }}</span>
                   <p>{{ post.content }}</p>
@@ -31,6 +32,7 @@ layout: default
                 <div class="datepost">
                   <span class="post-meta">{{ post.date | date: "%-d %b %Y" }}</span>
                 </div>{% endfor %}
+                </div>
               </ul>
           </div>
         </div>
