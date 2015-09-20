@@ -25,8 +25,8 @@ layout: default
             </div><p></p><p></p>
               <ul class="post-list">{% for post in paginator.posts %}
                 <div class="titlepost">
-                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                  {{ post.content }}
+                  <span>{{ post.title }}</span>
+                  <p>{{ post.content }}</p>
                 </div>
                 <div class="datepost">
                   <span class="post-meta">{{ post.date | date: "%-d %b %Y" }}</span>
