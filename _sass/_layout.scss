@@ -8,6 +8,18 @@
     position: relative;
 }
 
+/**** header image ****/
+#header-box { 
+    display: flex;
+    height: 100px;
+}
+
+#header-box img {
+    width: 200px;  /* Or whatever */
+    height: 100px; /* Or whatever */
+    margin: auto;  /* Magic! */
+}
+
 /**
  * Add new config
  */
