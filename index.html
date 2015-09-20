@@ -26,7 +26,7 @@ layout: default
               <ul class="post-list">{% for post in paginator.posts %}
               <div class="post-box">
                 <div class="titlepost">
-                  <span>{{ post.title }}</span>
+                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
                   <!--<p>{{ post.content }}</p>-->
                 </div>
                 <div class="datepost">
