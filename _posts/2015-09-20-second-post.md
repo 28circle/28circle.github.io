@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Board Game Night #6
 ---
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
