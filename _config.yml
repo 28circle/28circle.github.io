@@ -1,16 +1,15 @@
 # Site settings
-title: Brom [ ] Diki Andriansyah A P
-email: diki1aap@gmail.com
-description: Brom [ ] Diki Andriansyah A P sebuah blog room yang saya kelola untuk membagikan tulisan dan aktivitas saya, seperti pengetahuan, pengamatan dan informasi di penulisan kode.
+title: 28*Circle
+email: intercept.x.attack@gmail.com
+description: Website for 28*Circle
 baseurl: ""
-url: "https://dikiaap.github.io"
-subtitle: Brom brom code brom !!
-keywords: "Diki Andriansyah A P, Brom [ ] Diki Andriansyah A P, Brom Diki Andriansyah A P, Brom Diki Andriansyah, dikiaap, Diki Andriansyah Ananta Putra, Diki Andriansyah, dikiaap.github.io"
-sosial_username: dikiaap
+url: ""
+subtitle: Test test
+keywords: ""
 simple_search: http://google.com/search
 # Build settings
 markdown: kramdown
-author: dikiaap
+author: none
 permalink: ":year/:month/:day/:title/"
 paginate: 7
 paginate_path: "/page/:num/"
