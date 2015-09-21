@@ -16,32 +16,8 @@ layout: default
               <a href="https://www.facebook.com/events/883936891722539/" class="btn btn-big">RSVP</a>
               </div>
 
-              <!-- Modal -->
-              <div class="modal" id="modal-one" aria-hidden="true">
-                <div class="modal-dialog">
-                  <div class="modal-header">
-                    <h2>RSVP</h2>
-                    <a href="#close" class="btn-close" aria-hidden="true">×</a> <!--CHANGED TO "#close"-->
-                  </div>
-                  <div class="modal-body">
-                    <form action="//formspree.io/rudolf.janns@gmail.com" method="POST">
-                    <label for="name">Name (名前)</label><br>
-                    <input type="text" name="name"><br>
-                    <label for="_replyto">Email (メールアドレス)</label><br>
-                    <input type="email" name="_replyto"><br>
-                    <label for="nationality">Background (何人)</label><br>
-                    <input type="radio" name="nationality" value="Canadian">Canadian<br>
-                    <input type="radio" name="nationality" value="Japanese">日本人<br>
-                    <input type="submit" class="btn" value="Send">
-                </form>
-                  </div>
-                  </div>
-                </div>
-              </div>
-<!-- /Modal -->
-
-              <h3>Past Events</h3>
             </div>
+              <h3>Past Events</h3>
               <ul class="post-list">{% for post in paginator.posts %}
               <div class="post-box">
                 <div class="titlepost">

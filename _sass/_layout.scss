@@ -143,7 +143,6 @@
     letter-spacing: -1px;
     margin-bottom: 3px;
     letter-spacing: -0.4px;
-    float: left;
     color: #505050;
     &,
     &:visited {
@@ -442,7 +441,7 @@
   background: #428bca;
   border: #357ebd solid 1px;
   border-radius: 3px;
-  color: #fff;
+  color: #fff !important;
   display: inline-block;
   font-size: 14px;
   padding: 8px 15px;
