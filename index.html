@@ -26,17 +26,8 @@ layout: default
               <ul class="post-list">{% for post in paginator.posts %}
               <div class="post-box">
                 <div class="titlepost">
-<<<<<<< HEAD
-<<<<<<< HEAD
-                  <span>{{ post.title }}</span>
-=======
                   <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
->>>>>>> 358a8427839709f2d7b61930a4a8810965d35fd1
                   <!--<p>{{ post.content }}</p>-->
-=======
-                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                  {{ post.content }}
->>>>>>> parent of 927d4f9... Update index.html
                 </div>
                 <div class="datepost">
                   <span class="post-meta">{{ post.date | date: "%-d %b %Y" }}</span>
