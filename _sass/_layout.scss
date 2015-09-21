@@ -139,7 +139,7 @@
 
 .dummy {
     font-weight: 300;
-    font-size: 22px;
+    font-size: 16px;
     letter-spacing: -1px;
     margin-bottom: 3px;
     letter-spacing: -0.4px;
@@ -540,4 +540,9 @@
 #rsvp-box {
     border: 1px solid silver;
     padding: .5em;
+    max-width: 250px;
+}
+
+#past-events {
+    padding-top: 1em;
 }
