@@ -10,7 +10,7 @@ layout: default
 
               <div id="instafeed"></div>
 
-              <h3>Blog Posts</h3>
+              <h3>Past Events</h3>
             </div>
               <ul class="post-list">{% for post in paginator.posts %}
               <div class="post-box">
@@ -26,8 +26,8 @@ layout: default
           </div>
         </div>
         <div class="pagination">{% if paginator.previous_page %}
-          <a href="{{ paginator.previous_page_path }}" class="previous"><b>Balik Lagi</b></a>{% else %}{% endif %}{% if paginator.next_page %}
-          <a href="{{ paginator.next_page_path }}" class="next"><b>Lanjut</b></a>{% else %}{% endif %}
+          <a href="{{ paginator.previous_page_path }}" class="previous"><b>Previous</b></a>{% else %}{% endif %}{% if paginator.next_page %}
+          <a href="{{ paginator.next_page_path }}" class="next"><b>Next</b></a>{% else %}{% endif %}
         </div>
       </div>
       <div class="space"></div>
