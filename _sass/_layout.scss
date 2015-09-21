@@ -20,13 +20,6 @@
     margin: 0 auto; 
 }
 
-#logo {
-    width: 116px;
-    @include media-query($on-palm) {
-    width: 100%;
-    }
-}
-
 **/
 
 /**
@@ -553,4 +546,11 @@
 
 #past-events {
     padding-top: 1em;
+}
+
+#logo {
+    width: 116px;
+    @include media-query($on-palm) {
+    width: 100%;
+    }
 }
