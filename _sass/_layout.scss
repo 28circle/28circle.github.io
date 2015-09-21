@@ -541,7 +541,7 @@
 #rsvp-box {
     border: 1px solid silver;
     padding: .5em;
-    max-width: 250px;
+    max-width: 300px;
 }
 
 #past-events, #picture-box {
@@ -550,9 +550,9 @@
 
 #logo {
     width: 116px;
+    display: block;
     @include media-query($on-palm) {
     width: 80%;
-    display: block;
     margin: 0 auto;
     }
 }
