@@ -552,5 +552,7 @@
     width: 116px;
     @include media-query($on-palm) {
     width: 80%;
+    display: block;
+    margin: 0 auto;
     }
 }
