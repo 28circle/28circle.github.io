@@ -142,7 +142,7 @@ pre {
  * Wrapper
  */ 
 .wrapper {
-    max-width: calc(1160px);
+    max-width: 960px;
     margin-right: auto;
     margin-left: auto;
     @extend %clearfix;
