@@ -542,11 +542,22 @@
     border: 1px solid silver;
     padding: .5em;
     width: 100%;
-    overflow: none;
+    overflow: hidden;
 }
 
 #rsvp-box-left, #rsvp-box-right {
-  width: 50%;
+  width: 100%;
+      @include media-query($on-laptop) {
+        width: 50%;
+    }
+}
+
+#rsvp-box-left {
+  float: left;
+}
+
+#rsvp-box-right {
+  float: right;
 }
 
 #past-events, #picture-box {
