@@ -538,10 +538,15 @@
   display: none;
 }
 
-#rsvp-box {
+#rsvp-container {
     border: 1px solid silver;
     padding: .5em;
-    max-width: 400px;
+    width: 100%;
+    overflow: none;
+}
+
+#rsvp-box-left, #rsvp-box-right {
+  width: 50%;
 }
 
 #past-events, #picture-box {
