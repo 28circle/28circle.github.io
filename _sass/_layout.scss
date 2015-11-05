@@ -136,9 +136,9 @@
 
 @include media-query($on-palm) {
     .content-col {
-        float: center;
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
+        /*width: -webkit-calc(100% - (#{$spacing-unit} / 2)); 
+        width:         calc(100% - (#{$spacing-unit} / 2)); */
+        width: 100%;
     }
 }
 
