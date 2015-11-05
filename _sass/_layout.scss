@@ -615,10 +615,9 @@ h3 span {
 }
 
 #logo {
-    width: 116px;
+    width: 120px;
     display: block;
     @include media-query($on-palm) {
-    margin: 0 auto;
     }
 }
 
