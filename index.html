@@ -21,26 +21,27 @@ layout: default
 			              <a href="https://www.facebook.com/events/1676228689255476/" class="btn btn-big">RSVP on Facebook(要約)</a>
 		              </div>
 	              </div>
-            </div>
-              <div id="picture-box" class="section">
-              <h3><span>Pictures - 写真<span></h3>
-              <div id="instafeed"></div>
-              </div>
+	            </div>
+	            
+          <div id="picture-box" class="section">
+	          <h3><span>Pictures - 写真<span></h3>
+	          <div id="instafeed"></div>
+          </div>
 
             <div id="past-events" class="section">
               <h3><span>Past Events - 今までのイベント</h3>
-              <div> 
-              {% for post in paginator.posts %}
-              	<div class="post-box">
-	                <div class="titlepost">
-	                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">&#9734{{ post.title }}</a>
-	                </div>
-	                <div class="datepost">
-	                  <span class="post-meta">{{ post.date | date: "%-d %b %Y" }}</span>
+	              <div> 
+	              {% for post in paginator.posts %}
+	              	<div class="post-box">
+		                <div class="titlepost">
+		                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">&#9734{{ post.title }}</a>
+		                </div>
+		                <div class="datepost">
+		                  <span class="post-meta">{{ post.date | date: "%-d %b %Y" }}</span>
+		                </div>
 	                </div>{% endfor %}
-                </div>
-              </div>
-          </div>
+	              </div>
+	          </div>
           </div>
         </div>
         <div class="pagination">{% if paginator.previous_page %}
