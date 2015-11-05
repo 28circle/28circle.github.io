@@ -599,12 +599,7 @@
   }
 }
 
-#rsvp-box-right {
-  @screen and (min-width: $on-palm)
-  {
-  flex: 2;
-  }
-}
+
 
 #past-events, #picture-box {
     padding-top: 1em;
