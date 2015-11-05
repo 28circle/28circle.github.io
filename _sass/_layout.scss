@@ -600,7 +600,7 @@
 }
 
 #rsvp-box-right {
-  @include media-query(min-width: 600px;)
+  @screen and (min-width: $on-palm)
   {
   flex: 2;
   }
