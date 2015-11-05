@@ -398,8 +398,9 @@
  */
  .post-box {
     margin-bottom: 1em;
+    overflow: hidden;
  }
- 
+
 .post-header {
     margin-bottom: $spacing-unit;
 }
