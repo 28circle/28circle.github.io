@@ -572,21 +572,23 @@
     border: .5vw solid rgba(255, 255, 255, 0);
     box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 1px 0px, rgba(0, 0, 0, 0.14902) 0px 1px 10px 0px;
     border-radius: 4px;
+    display: flex;
+    -webkit-align-items: center;
+          align-items: center;
 }
 
 #rsvp-box-left, #rsvp-box-right {
-  width: 50%;
       @include media-query($on-laptop) {
         width: 100%;
     }
 }
 
 #rsvp-box-left {
-  float: left;
+  margin-right: 1em;
 }
 
 #rsvp-box-right {
-  float: right;
+  flex: 2;
 }
 
 #past-events, #picture-box {
