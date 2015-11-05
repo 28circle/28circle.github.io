@@ -103,7 +103,7 @@
 .content-col-wrapper {
     font-size: $spacing-unit / 2;
     color: #6C6C6C;
-    margin-left: -$spacing-unit / 2;
+    /*margin-left: -$spacing-unit / 2;*/
     @extend %clearfix;
 }
 
