@@ -36,10 +36,11 @@
 .titlepost {
     height: $spacing-unit;
     font-family: 'Lato', sans-serif;
-    width: 90%;
+    width: 70%;
     float:left;
     border-bottom: 1px dashed #E1E2E3;
     padding-top: $spacing-unit / 6;
+    margin-bottom: 1em;
 }
 
 .photos,
@@ -88,11 +89,11 @@
 
 .datepost {
     height: $spacing-unit;
-    width: 100px;
+    width: 30%;
     float: left;
     border-bottom: 1px dashed #E1E2E3;
     padding-top: $spacing-unit / 6;
-    text-align: left;
+    text-align: right;
 }
 
 .home {
