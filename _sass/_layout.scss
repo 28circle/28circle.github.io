@@ -434,10 +434,6 @@
     }
 }
 
-#instafeed {
-    margin: 1em 0;
-}
-
 .btn {
   background: #428bca;
   border: #357ebd solid 1px;
@@ -537,6 +533,25 @@
 #close {
   display: none;
 }
+
+#instafeed {
+    margin: 1em 0;
+    display: flex;
+    display-wrap: wrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: -.5vw -.5vw 0 -.5vw;
+}
+
+#instafeed a {
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  line-height: 0;
+  transition: opacity .2s ease-in-out;
+  border: .5vw solid transparent;
+  }
 
 #rsvp-container {
     border: 1px solid silver;
