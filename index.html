@@ -5,9 +5,9 @@ layout: default
         <div class="content-col-wrapper">
           <div class="content-col">
             <div class="dummy section">
-            <h3><span>Welcome! ようこそ！</span></h3>
-              <p>28*Circle is a bilingual (English and Japanese) activity group/circle located in Toronto. Our main activity is our weekly board game meetup. Click below to RSVP for the next event!</p>
-              <p>28(にエイト)サークルはトロントで毎週行われています。英語と日本語で会話をしながらボードゲームをするサークルです。参加希望の方はぜひ、以下のRSVPをクリックしてお気軽にご参加ください。</p>
+	            <h3><span>Welcome! ようこそ！</span></h3>
+	              <p>28*Circle is a bilingual (English and Japanese) activity group/circle located in Toronto. Our main activity is our weekly board game meetup. Click below to RSVP for the next event!</p>
+	              <p>28(にエイト)サークルはトロントで毎週行われています。英語と日本語で会話をしながらボードゲームをするサークルです。参加希望の方はぜひ、以下のRSVPをクリックしてお気軽にご参加ください。</p>
               </div>
               <div class="section">
 	              <h3><span>Next Event - 次のイベント</span></h3>
@@ -29,16 +29,17 @@ layout: default
 
             <div id="past-events" class="section">
               <h3><span>Past Events - 今までのイベント</h3>
-              <ul class="post-list">{% for post in paginator.posts %}
-              <div class="post-box">
-                <div class="titlepost">
-                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">&#9734{{ post.title }}</a>
+              <div> 
+              {% for post in paginator.posts %}
+              	<div class="post-box">
+	                <div class="titlepost">
+	                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">&#9734{{ post.title }}</a>
+	                </div>
+	                <div class="datepost">
+	                  <span class="post-meta">{{ post.date | date: "%-d %b %Y" }}</span>
+	                </div>{% endfor %}
                 </div>
-                <div class="datepost">
-                  <span class="post-meta">{{ post.date | date: "%-d %b %Y" }}</span>
-                </div>{% endfor %}
-                </div>
-              </ul>
+              </div>
           </div>
           </div>
         </div>
