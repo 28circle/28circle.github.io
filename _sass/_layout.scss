@@ -600,7 +600,10 @@
 }
 
 #rsvp-box-right {
+  @include media-query($on-laptop)
+  {
   flex: 2;
+  }
 }
 
 #past-events, #picture-box {
