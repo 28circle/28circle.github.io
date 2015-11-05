@@ -554,7 +554,10 @@
   flex-grow: 1;
   line-height: 0;
   transition: opacity .2s ease-in-out;
-  border: .5vw solid transparent;
+  margin: .5vw;
+  border: .5vw solid rgba(255, 255, 255, 0);
+  box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 1px 0px, rgba(0, 0, 0, 0.14902) 0px 1px 10px 0px;
+  border-radius: 4px;
   }
 
 #instafeed img {
@@ -566,6 +569,9 @@
     padding: .5em;
     width: 100%;
     overflow: hidden;
+    border: .5vw solid rgba(255, 255, 255, 0);
+    box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 1px 0px, rgba(0, 0, 0, 0.14902) 0px 1px 10px 0px;
+    border-radius: 4px;
 }
 
 #rsvp-box-left, #rsvp-box-right {
