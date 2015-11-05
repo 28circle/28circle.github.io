@@ -367,7 +367,7 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    padding: 1em 0;
 }
 
 .page-heading {
@@ -538,7 +538,11 @@
   display: none;
 }
 
-
+h3 span {
+    color: #4F90AD;
+    font-size: 1.2em;
+    font-weight: 400;
+}
 
 #instafeed {
     margin: 1em 0;
@@ -567,6 +571,7 @@
 }
 
 #rsvp-container {
+    font-size: 1.2em;
     border: 1px solid silver;
     padding: 1em;
     width: 100%;
