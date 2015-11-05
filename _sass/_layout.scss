@@ -538,6 +538,8 @@
   display: none;
 }
 
+
+
 #instafeed {
     margin: 1em 0;
     display: flex;
@@ -566,7 +568,7 @@
 
 #rsvp-container {
     border: 1px solid silver;
-    padding: .5em;
+    padding: 1em;
     width: 100%;
     overflow: hidden;
     border: .5vw solid rgba(255, 255, 255, 0);
@@ -575,6 +577,9 @@
     display: flex;
     -webkit-align-items: center;
           align-items: center;
+}
+#rsvp-container p {
+  margin-bottom: 0;
 }
 
 #rsvp-box-left, #rsvp-box-right {
