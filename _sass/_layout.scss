@@ -618,7 +618,6 @@ h3 span {
     width: 116px;
     display: block;
     @include media-query($on-palm) {
-    width: 80%;
     margin: 0 auto;
     }
 }
