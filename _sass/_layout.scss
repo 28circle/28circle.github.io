@@ -40,7 +40,6 @@
     float:left;
     border-bottom: 1px dashed #E1E2E3;
     padding-top: $spacing-unit / 6;
-    margin-bottom: 1em;
 }
 
 .photos,
@@ -397,6 +396,10 @@
 /**
  * Posts
  */
+ .post-box {
+    margin-bottom: 1em;
+ }
+ 
 .post-header {
     margin-bottom: $spacing-unit;
 }
