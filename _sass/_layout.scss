@@ -7,6 +7,7 @@
  */
 .site-header {
     border-bottom: 1px solid #e8e8e8;
+    background-color: #ECECEC;
     padding: 1em 0;
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -621,7 +622,10 @@ h3 span {
 
 #logo {
     width: 120px;
-    margin-left: 3px;
+    margin-left: 5px;
+      @include media-query($on-palm) {
+        margin: 0 auto;
+      }
     display: block;
 }
 
