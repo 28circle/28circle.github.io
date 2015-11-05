@@ -537,7 +537,7 @@
 #instafeed {
     margin: 1em 0;
     display: flex;
-    display-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-pack: justify;
     justify-content: space-between;
     -webkit-box-align: center;
@@ -553,6 +553,10 @@
   border: .5vw solid transparent;
   -webkit-flex-basis: calc(100%/4);
   }
+
+#instafeed img {
+  width: 100%;
+}
 
 #rsvp-container {
     border: 1px solid silver;
