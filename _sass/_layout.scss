@@ -600,9 +600,8 @@
 }
 
 #rsvp-box-right {
-  @screen and (min-width: $on-palm)
-  {
-  flex: 2;
+  @media screen and (min-width: $on-palm) {
+  flex: 2; 
   }
 }
 
