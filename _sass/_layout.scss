@@ -510,6 +510,10 @@ $navigation__transition: max-height 0.5s ease-in-out;
   transition: $navigation__transition;
 }
 
+.navigation ul li {
+  margin-top: .5em;
+}
+
 .burger-check:checked ~ .navigation {
   max-height: 500px;
   
