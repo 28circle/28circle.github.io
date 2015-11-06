@@ -98,7 +98,6 @@
 
 .content-col-wrapper {
     font-size: $spacing-unit / 2;
-    color: #6C6C6C;
     /*margin-left: -$spacing-unit / 2;*/
     @extend %clearfix;
 }
@@ -144,14 +143,6 @@
     letter-spacing: -1px;
     margin-bottom: 3px;
     letter-spacing: -0.4px;
-    color: #505050;
-    &,
-    &:visited {
-        color: #505050;
-    }
-    .blogpost {
-        text-align: left;
-    }
 }
 
 .site-title {
@@ -626,6 +617,5 @@ script + p {
 }
 
 iframe.instagram-media {
-    max-width: 80% !important;
-    margin: 0 auto;
+    margin: 0 auto !important;
 }
