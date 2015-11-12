@@ -4,12 +4,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="author" content="{{ site.author }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="HandheldFriendly" content="True">
-    <!--space-->{% capture description %}{% if page.description %}{{ page.description }}{% elsif page.title %}{{ content | raw_content }}{% else %}{{ site.description }}{% endif %}{% endcapture %}
-    <meta name="description" content="{{ description | strip_html | condense_spaces | truncate:150 }}" />
-    <!--space-->{% capture keywords %}{% if page.keywords %}{{ page.keywords }}{% elsif page.title %}{{""}}{% else %}{{ site.keywords }}{% endif %}{% endcapture %}
-    <meta name="keywords" content="{{ keywords | strip_html | condense_spaces }}" />
-    <meta property="og:image" content="http://i.imgbox.com/FVXzVeXv.png"/>
+    <meta property="title" content="28*Circle">
+    <meta property="description" content="28*Circle is a bilingual (English and Japanese) activity group/circle located in Toronto. Our main activity is our weekly board game meetup. Click below to RSVP for the next event!
+    28(にエイト)サークルはトロントで毎週行われています。英語と日本語で会話をしながらボードゲームをするサークルです。参加希望の方はぜひ、以下のRSVPをクリックしてお気軽にご参加ください。">
+
+    <meta property="og:image" content="/img/28logo-large-square.png"/>
+
+    <meta property="og:title" content="28*Circle">
+    <meta property="og:site_name" content="28*Circle - 日本語・英語サークル">
+    <meta property="og:url" content="http://28circle.info">
+    <meta property="og:description" content="28*Circle is a bilingual (English and Japanese) activity group/circle located in Toronto. Our main activity is our weekly board game meetup. Click below to RSVP for the next event!
+
+    28(にエイト)サークルはトロントで毎週行われています。英語と日本語で会話をしながらボードゲームをするサークルです。参加希望の方はぜひ、以下のRSVPをクリックしてお気軽にご参加ください。">
+    <meta property="fb:app_id" content="">
+    <meta property="og:type" content="website">
+
     <link href="{{ "/css/main.css" | prepend: site.baseurl }}" rel='stylesheet' type='text/css' />
     <script type="text/javascript" src="{{ "/js/instafeed.min.js" | prepend: site.baseurl }}"></script>
     <link href="/favicon.png" rel="icon">
