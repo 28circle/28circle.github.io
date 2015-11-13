@@ -10,6 +10,6 @@ simple_search: http://google.com/search
 # Build settings
 markdown: kramdown
 author: none
-permalink: "/:categories/:title/"
+permalink: "/:year/:month/:day/:title/"
 paginate: 7
 paginate_path: "/page/:num/"
