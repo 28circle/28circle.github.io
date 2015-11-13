@@ -1,15 +1,15 @@
 # Site settings
-title: 28*Circle
+title: 28*Circle 
 email: intercept.x.attack@gmail.com
-description: Website for 28*Circle
-baseurl: ""
+description: "28*Circle is a bilingual (English and Japanese) activity group/circle located in Toronto."
+baseurl: "http://28circle.info"
 url: ""
-subtitle: Test test
+subtitle: ""
 keywords: ""
 simple_search: http://google.com/search
 # Build settings
 markdown: kramdown
 author: none
-permalink: ":year/:month/:day/:title/"
+permalink: "/:categories/:title/"
 paginate: 7
 paginate_path: "/page/:num/"
