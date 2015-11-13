@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta property="title" content="{{site.title}} - {{page.title}}">
     <meta property="description" content="{% if page.description %}{{page.description}}{%else%}{{site.description}}{%endif%}">
-    <meta property="og:url" content="{{site.url}}{{ page.url }}"/>
-    <meta property="og:site_name" content="{{ site.title }}{{ site.subtitle }}"/>
+    <meta property="og:url" content="{{site.baseurl}}{{ page.url }}"/>
+    <meta property="og:site_name" content="{{ site.title }} - {{ site.subtitle }}"/>
     <meta property="og:title" content="{{site.title}} - {{page.title}}"/>
     <meta property="og:type" content="website"/>
     <meta property="fb:app_id" content="{{ site.fb_app_id}}"/>
