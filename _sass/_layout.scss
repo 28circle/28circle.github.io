@@ -682,3 +682,13 @@ iframe.instagram-media {
 a {    
 font-weight: 400;  
 }
+
+.frame-with-shadow {
+    border: 1px solid silver;
+    padding: 1em;
+    width: 100%;
+    overflow: hidden;
+    border: .5vw solid rgba(255, 255, 255, 0);
+    box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 1px 0px, rgba(0, 0, 0, 0.14902) 0px 1px 10px 0px;
+    border-radius: 4px;
+  }
