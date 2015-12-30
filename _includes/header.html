@@ -1,17 +1,5 @@
   			<div class="off-canvas-wrap" data-offcanvas>
   				<div class="inner-wrap">
-	  			<nav class="tab-bar">
-		  			<section class="left-small">
-		  				<a class="left-off-canvas-toggle menu-icon"><span></span></a>
-		  			</section>
-	  			</nav>
-	  			<aside class="left-off-canvas-menu">
-		  			<ul class="off-canvas-list">
-					  	<li><a href="/">&#127968; Home - ホーム</a></li>
-					    <li><a href="{{ "/contact.html" | prepend: site.baseurl }}">&#128231; Contact - 連絡</a></li>
-				  </ul>
-			  </aside>
-			  <a class="exit-off-canvas"></a>
 <header class="site-header">
 <div class="wrapper">
   <div id="header-box">
@@ -19,8 +7,22 @@
   			<li>
   			<a id="logo" href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/img/28logo-large.png"/></a>
   			</li>
-  			<li><a class="left-off-canvas-toggle menu-icon"><span></span></a></li>
-	  		<li class="burger-menu">
+  			<li>
+  					  			<nav class="tab-bar">
+		  			<section class="right-small">
+		  				<a class="right-off-canvas-toggle menu-icon"><span></span></a>
+		  			</section>
+	  			</nav>
+	  			<aside class="right-off-canvas-menu">
+		  			<ul class="off-canvas-list">
+					  	<li><a href="/">&#127968; Home - ホーム</a></li>
+					    <li><a href="{{ "/contact.html" | prepend: site.baseurl }}">&#128231; Contact - 連絡</a></li>
+				  </ul>
+			  </aside>
+			  <a class="exit-off-canvas"></a>
+  			</li>
+
+<!-- 	  		<li class="burger-menu">
 			<input class="burger-check" id="burger-check" type="checkbox"><label for="burger-check" class="burger"></label>
 			<nav id="navigation1" class="navigation">
 			  <ul>
@@ -28,7 +30,7 @@
 			    <li><a href="{{ "/contact.html" | prepend: site.baseurl }}">&#128231; Contact - 連絡</a></li>
 			  </ul>
 			</nav>
-			</li>
+			</li> -->
 		</ul>
   </div>
 </div>
