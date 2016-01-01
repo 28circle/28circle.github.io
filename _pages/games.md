@@ -1,4 +1,5 @@
 ---
+permalink: "/games/"
 layout: default
 title: Games - 28*Circle 
 ---
