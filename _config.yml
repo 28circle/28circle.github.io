@@ -11,5 +11,6 @@ simple_search: http://google.com/search
 markdown: kramdown
 author: none
 permalink: "/:year/:month/:day/:title/"
+gems: [jekyll-paginate]
 paginate: 7
 paginate_path: "/page/:num/"
