@@ -651,7 +651,7 @@ h3 span {
 }
 
 #rsvp-box-left {
-  max-width: 400px;
+  max-width: 500px;
   margin-right: 1em;
   font-size: 16px;
   @include media-query($on-palm) {
@@ -664,6 +664,7 @@ h3 span {
   @media screen and (min-width: $on-palm) {
   flex: 2; 
   }
+
 }
 
 #logo {
@@ -671,14 +672,17 @@ h3 span {
     display: block;
 }
 
-#meetup-link {
+#meetup-link, #meetup-link a, #facebook-link {
   display: block;
 }
 
-#meetup-link {
-  display: block;
+#meetup-link img {
   max-width: 150px;
   margin: 0 auto;
+}
+
+#facebook-link {
+  text-align: center;
 }
 
 /* instagram stuff */
