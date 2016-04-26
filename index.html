@@ -20,7 +20,6 @@ title: Home
                   <div id="rsvp-box-right">
                   <a href="http://meetup.com/28circle" target="blank" id="meetup-link"><img src="{{ site.baseurl }}/img/meetup.svg"></a>
                   <a href="https://www.facebook.com/groups/1623164887958580/" target="blank" id="facebook-link">Facebookはこちら</a>
-<!--                     <a href="http://meetup.com/28circle" class="btn btn-big" target="_blank">Go to Meetup.com - Meetupに行こう</a> -->
                   </div>
 	              </div>
 	            </div>
@@ -30,20 +29,7 @@ title: Home
 	          <div id="instafeed"></div>
           </div>
 
-            <div id="past-events" class="section">
-              <h3><span>Past Events - 今までのイベント</span></h3><p>Click below to see short diaries of our past events! 以下のリンクは今までのイベントの日記です！</p>
-	              <div> 
-	              {% for post in paginator.posts %}
-	              	<div class="post-box">
-		                <div class="titlepost">
-		                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">&#9734{{ post.title }}</a>
-		                </div>
-		                <div class="datepost">
-		                  <span class="post-meta">{{ post.date | date: "%-d %b %Y" }}</span>
-		                </div>
-	                </div>{% endfor %}
-	              </div>
-	          </div>
+          <!-- end past events section -->
           </div>
         </div>
         <div class="pagination">{% if paginator.previous_page %}
