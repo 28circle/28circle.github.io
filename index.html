@@ -32,10 +32,6 @@ title: Home
           <!-- end past events section -->
           </div>
         </div>
-        <div class="pagination">{% if paginator.previous_page %}
-          <a href="{{ paginator.previous_page_path }}" class="previous"><b>Previous</b></a>{% else %}{% endif %}{% if paginator.next_page %}
-          <a href="{{ paginator.next_page_path }}" class="next"><b>Next</b></a>{% else %}{% endif %}
-        </div>
       </div>
       <div class="space"></div>
           <script type="text/javascript" src="{{ "/js/instafeed.min.js" | prepend: site.baseurl }}"></script>
