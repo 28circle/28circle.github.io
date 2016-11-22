@@ -3,15 +3,15 @@ title: 28 Circle
 email: intercept.x.attack@gmail.com
 description: "28 Circle is a bilingual (English and Japanese) activity group/circle located in Toronto. 28サークルは普通のランゲージエクスチェンジではない。英語と日本語で会話をしながらボードゲームをするサークルです。"
 baseurl: ""
-url: "http://28circle.info"
+url: "http://28circle.ca"
 subtitle: "日本語・英語サークル"
-keywords: ""
+keywords: "28 Circle" "Games" "Japanese" "Toronto"
 simple_search: http://google.com/search
 # Build settings
 markdown: kramdown
 author: none
 permalink: "/:year/:month/:day/:title/"
-gems: [jekyll-paginate]
+gems: [jekyll-paginate][jekyll-seo-tag]
 paginate: 7
 paginate_path: "/page/:num/"
 include: ['_pages']
