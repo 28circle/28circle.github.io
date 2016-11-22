@@ -12,7 +12,9 @@ logo: "/img/28logo-large.png"
 markdown: kramdown
 author: none
 permalink: "/:year/:month/:day/:title/"
-gems: [jekyll-paginate][jekyll-seo-tag]
+gems:
+ - jekyll-paginate
+ - jekyll-seo-tag
 paginate: 7
 paginate_path: "/page/:num/"
 include: ['_pages']
